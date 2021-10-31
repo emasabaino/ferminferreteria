@@ -40,7 +40,7 @@
 #logo-mobile {
     width: 130px;
     height: auto;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 .menu-mobile {
@@ -90,6 +90,9 @@ footer {
     iframe {
         margin-bottom: 30px !important;
     }
+    h3 {
+        font-weight: bold;
+    }
 }
 
 .divFooter {
@@ -100,7 +103,6 @@ footer {
     margin: 20px 0px;
     margin-bottom: 30px;
 }
-
 
 /* INDEX */ 
 
@@ -117,6 +119,9 @@ footer {
         }
         .botonWpp {
             margin-left: 130px;
+            img {
+                height: 50px;
+            }
         }
     }
     p {
@@ -301,7 +306,7 @@ footer {
     }
 }
 
-.ubicacion {
+#ubicacion-contacto {
     display: none !important;
 }
 

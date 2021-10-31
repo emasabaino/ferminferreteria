@@ -579,7 +579,7 @@ footer a {
   background-size: cover; }
 
 .ofertas {
-  background-image: url(../images/ofertas.png);
+  background-image: url(../images/ofertas.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -596,13 +596,13 @@ footer a {
   background-image: url(../images/ILUMINACION.jpg); }
 
 .pintureria {
-  background-image: url(../images/PINTURA.png); }
+  background-image: url(../images/PINTURA.jpg); }
 
 .jardineria {
   background-image: url(../images/jardineria.jpg); }
 
 .herramientas {
-  background-image: url(../images/accesorios.png); }
+  background-image: url(../images/accesorios.jpg); }
 
 .marcas img {
   opacity: 0.7; }
@@ -1415,11 +1415,9 @@ footer {
 .contactoh1 h1 {
   padding-top: 50px; }
 
-.redes h3 {
-  margin-left: -50px; }
-
 .contactRedes {
-  margin-left: 40px; }
+  justify-content: center;
+  align-items: center; }
   .contactRedes div {
     margin-bottom: 30px; }
 
@@ -2486,7 +2484,7 @@ footer h3 {
   #logo-mobile {
     width: 130px;
     height: auto;
-    padding-left: 50px; }
+    padding-left: 40px; }
   .menu-mobile .boton-menu-mobile .bg-dark {
     background-color: #269443 !important; }
   .menu-mobile .boton-menu-mobile .navBar li {
@@ -2517,6 +2515,8 @@ footer h3 {
         padding: 10px; }
     footer iframe {
       margin-bottom: 30px !important; }
+    footer h3 {
+      font-weight: bold; }
   .divFooter {
     padding-left: 15px; }
   .fermin-footer {
@@ -2533,6 +2533,8 @@ footer h3 {
       font-size: 25px; }
     .bannerHome .containerWpp .botonWpp {
       margin-left: 130px; }
+      .bannerHome .containerWpp .botonWpp img {
+        height: 50px; }
   .bannerHome p {
     font-size: 30px;
     text-align: center;
@@ -2635,7 +2637,7 @@ footer h3 {
     justify-content: center;
     align-items: center;
     margin: auto; }
-  .ubicacion {
+  #ubicacion-contacto {
     display: none !important; }
   .contacto-datos span {
     text-align: center;
