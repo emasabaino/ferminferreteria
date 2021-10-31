@@ -23,7 +23,7 @@
     <!--ENCABEZADO DESKTOP-->
 
 
-    <header class="container-fluid">
+    <header class="menu-desktop container-fluid">
 
         <div class="row">
 
@@ -48,14 +48,48 @@
 
     </header>
 
-    <!--ENCABEZADO MOBILE (PEGAR ENCABEZADO DESKTOP CON MENU HAMBURG)
+    <!--ENCABEZADO MOBILE (PEGAR ENCABEZADO DESKTOP CON MENU HAMBURG)-->
+
+    <header class="menu-mobile container-fluid">
+        <div class="row">
+
+            <div class="boton-menu-mobile pos-f-t">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4 row">
+                        <nav class="navBar col-lg-9">
+                            <ul class="d-flex flex-column">
+                                <li><a href="../index.html">Inicio</a></li>
+                                <div class="div-thin-white"></div>
+                                <li><a href="../pages/Sobre Nosotros.html">Sobre Nosotros</a></li>
+                                <div class="div-thin-white"></div>
+                                <li><a href="../pages/Cómo Comprar.html">Cómo Comprar</a></li>
+                                <div class="div-thin-white"></div>
+                                <li><a href="../pages/Contacto.html">Contacto</a></li>
+                                <div class="div-thin-white"></div>
+                            </ul>
+                        </nav>
+            
+                        <div class="redesMain col-lg-2 d-flex flex-row">
+                            <div><a><img src="../images/facebook-2.png" alt="logo-ig"></a></div>
+                            <div><a><img src="../images/instagram.png" alt="logo-fb"></a></div>
+                            <div><a><img src="../images/wpp-1.png" alt="logo-wpp"></a></div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </div>
+
+            <img id="logo-mobile" class="col-lg-5" src="../images/logo-fermin.png" alt="logo-fermin">
 
 
+        </div>
+    </header>
 
 
-
-
-    -->
 
 
 
@@ -67,9 +101,9 @@
 
             <div class="col-lg-12 div-ora"></div>
 
-            <h1 class="col-lg-5">CÓMO COMPRAR EN FERMÍN</h1>
+            <h1 class="col-lg-5 col-xs-12">CÓMO COMPRAR EN FERMÍN</h1>
 
-            <iframe class="col-lg-7" src="https://www.youtube.com/embed/mm5n9laAjgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="col-lg-7 col-xs-12" src="https://www.youtube.com/embed/mm5n9laAjgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         </div>
 
@@ -99,10 +133,10 @@
             
         </div>
 
-        <div class="paso-2 paso">
+        <div class="paso-2 invert paso">
             
             
-            <div class="col-lg-6">
+            <div id="tuto" class="col-lg-6">
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, optio possimus necessitatibus nulla eius quod, eligendi, adipisci alias consectetur incidunt cumque excepturi tenetur sit numquam animi qui neque blanditiis est!</p>
 
@@ -110,7 +144,7 @@
 
             </div>
 
-            <div class="col-lg-6">
+            <div id="titulo" class="col-lg-6">
                 <h3><span>1.</span> Dirigirse a nuestra página web.</h3>
             </div>
             
@@ -132,10 +166,10 @@
             
         </div>
 
-        <div class="paso paso-4">
+        <div class="paso invert paso-4">
             
             
-            <div class="col-lg-6">
+            <div id="tuto" class="col-lg-6">
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, optio possimus necessitatibus nulla eius quod, eligendi, adipisci alias consectetur incidunt cumque excepturi tenetur sit numquam animi qui neque blanditiis est!</p>
 
@@ -143,7 +177,7 @@
 
             </div>
 
-            <div class="col-lg-6">
+            <div id="titulo" class="col-lg-6">
                 <h3><span>1.</span> Dirigirse a nuestra página web.</h3>
             </div>
             
@@ -170,71 +204,71 @@
 
     <!--CIERRO TUTORIAL-->
 
-        <!--ABRO FOOTER-->
+            <!--ABRO FOOTER-->
 
-        <div class="div-green"></div>
+    <div class="div-green"></div>
 
-        <footer class="container-fluid">
-            
-            <div class="row">
-    
-                <div class="divFooter col-lg-3">
-                    <h3>
-                        NAVEGACION
-                    </h3>
-    
-                    <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="Sobre Nosotros.html">Sobre Nosotros</a></li>
-                        <li><a href="Cómo Comprar.html">Cómo Comprar</a></li>
-                        <li><a href="Contacto.html">Contacto</a></li>
-                    </ul>
+    <footer class="container-fluid">
+        
+        <div class="row">
+
+            <div class="divFooter col-lg-3">
+                <h3>
+                    NAVEGACION
+                </h3>
+
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="Sobre Nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="Cómo Comprar.html">Cómo Comprar</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="redesMain col-lg-2">
+                <h3>
+                    REDES
+                </h3>
+
+                <div class= d-inline-flex>
+                    <div><a><img src="../images/insta-verde.png" alt="logo-ig"></a></div>
+                    <div><a><img src="../images/face-verde.png" alt="logo-fb"></a></div>
+                    <div><a><img src="../images/wpp-verde.png" alt="logo-wpp"></a></div>
                 </div>
-    
-                <div class="redesMain col-lg-2">
-                    <h3>
-                        REDES
-                    </h3>
-    
-                    <div class= d-inline-flex>
-                        <div><a><img src="../images/insta-verde.png" alt="logo-ig"></a></div>
-                        <div><a><img src="../images/face-verde.png" alt="logo-fb"></a></div>
-                        <div><a><img src="../images/wpp-verde.png" alt="logo-wpp"></a></div>
-                    </div>
-                </div>
-    
-    
-                <div class="col-lg-2">
-                    <a href="#"><img src="../images/logo-fermin.png" class="fermin-footer" alt="logo-fermin"></a>
-                </div>
-    
-                <div class="col-lg-3">
-    
-                    <span><img src="../images/ubicacion.png" class="ubicacion"></span><span>Estamos en Av. Siempre Viva 123</span>
-    
-                    <iframe class="iframe" src="https://maps.google.com/?ll=23.135249,-82.359685&z=14&t=m&output=embed" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
-    
-                </div>
-    
-                <div class="divFooter col-lg-2">
-                    <h3>
-                        CONTACTO
-                    </h3>
-    
-                    <ul>
-                        <li>TELEFONO-1</li>
-                        <li>TELEFONO-2</li>
-                        <li>EMAIL</li>
-                    </ul>
-                </div>
-                
+            </div>
+
+
+            <div class="col-lg-2">
+                <a href="#"><img src="../images/logo-fermin.png" class="fermin-footer" alt="logo-fermin"></a>
+            </div>
+
+            <div class="col-lg-3">
+
+                <span><img src="../images/ubicacion.png" class="ubicacion"></span><span>Estamos en Av. Siempre Viva 123</span>
+
+                <iframe class="iframe" src="https://maps.google.com/?ll=23.135249,-82.359685&z=14&t=m&output=embed" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            </div>
+
+            <div class="divFooter col-lg-2">
+                <h3>
+                    CONTACTO
+                </h3>
+
+                <ul>
+                    <li>TELEFONO-1</li>
+                    <li>TELEFONO-2</li>
+                    <li>EMAIL</li>
+                </ul>
             </div>
             
-        </footer>
-    
-    
-    
-        <!--CIERRO FOOTER-->
+        </div>
+        
+    </footer>
+
+
+
+    <!--CIERRO FOOTER-->
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

@@ -133,7 +133,7 @@ footer {
     padding-left: 100px; }
 
 .paso-3 {
-  background-color: #e6e211; }
+  background-color: #e6d111; }
 
 .paso-4 {
   background-color: #a0ce24; }
@@ -497,7 +497,7 @@ footer {
     padding-left: 100px; }
 
 .paso-3 {
-  background-color: #e6e211; }
+  background-color: #e6d111; }
 
 .paso-4 {
   background-color: #a0ce24; }
@@ -755,7 +755,7 @@ footer {
     padding-left: 100px; }
 
 .paso-3 {
-  background-color: #e6e211; }
+  background-color: #e6d111; }
 
 .paso-4 {
   background-color: #a0ce24; }
@@ -947,7 +947,7 @@ footer {
     padding-left: 100px; }
 
 .paso-3 {
-  background-color: #e6e211; }
+  background-color: #e6d111; }
 
 .paso-4 {
   background-color: #a0ce24; }
@@ -1618,7 +1618,7 @@ footer {
     padding-left: 100px; }
 
 .paso-3 {
-  background-color: #e6e211; }
+  background-color: #e6d111; }
 
 .paso-4 {
   background-color: #a0ce24; }
@@ -2013,7 +2013,7 @@ footer {
     padding-left: 100px; }
 
 .paso-3 {
-  background-color: #e6e211; }
+  background-color: #e6d111; }
 
 .paso-4 {
   background-color: #a0ce24; }
@@ -2205,7 +2205,7 @@ footer {
     padding-left: 100px; }
 
 .paso-3 {
-  background-color: #e6e211; }
+  background-color: #e6d111; }
 
 .paso-4 {
   background-color: #a0ce24; }
@@ -2580,6 +2580,41 @@ footer h3 {
     font-size: 18px;
     width: 95%; }
   /* COMO COMPRAR */
+  .comocomprar-banner h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 30px; }
+  .comocomprar-banner iframe {
+    height: 400px;
+    width: 100%; }
+  .paso {
+    display: flex;
+    flex-direction: column;
+    padding: 15px; }
+  .pasoapaso {
+    width: 100%; }
+    .pasoapaso span {
+      font-size: 50px;
+      text-align: center; }
+    .pasoapaso h3 {
+      font-size: 40px;
+      padding-bottom: 35px;
+      text-align: center;
+      width: 100%; }
+    .pasoapaso p {
+      text-align: center; }
+  .paso-2 h3 {
+    padding-left: 0px; }
+  .paso-2 #titulo {
+    order: 1; }
+  .paso-2 #tuto {
+    order: 2; }
+  .paso-4 h3 {
+    padding-left: 0px; }
+  .paso-4 #titulo {
+    order: 1; }
+  .paso-4 #tuto {
+    order: 2; }
   /* CONTACTO */
   .contactoh1 h1 {
     font-size: 55px; }
