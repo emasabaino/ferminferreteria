@@ -1,0 +1,302 @@
+@import '_colors.scss';
+@import '_fonts.scss';
+
+
+@media only screen and (min-width: 1200px){
+    .menu-mobile {
+        display: none;
+    }
+    .footer-mobile {
+        display: none;
+    }
+} 
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+/* HEADER */ 
+
+/* FOOTER */ 
+
+/* INDEX */ 
+
+/* SOBRE NOSOTROS */ 
+
+/* COMO COMPRAR */ 
+
+/* CONTACTO */ 
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px)  {
+
+/* HEADER */ 
+
+.menu-desktop {
+    display: none;
+}
+
+#logo-mobile {
+    width: 130px;
+    height: auto;
+    padding-left: 50px;
+}
+
+.menu-mobile {
+   
+        .boton-menu-mobile {
+        .bg-dark {
+            background-color: $verdefermin !important;
+        }
+        .navBar {
+            li {
+                color: white;
+                font-family: $franklin;
+                font-weight: bold;
+                font-size: 22px;
+                list-style: none;
+                padding-left: 0px !important;
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+            .div-thin-white {
+                height: 2px;
+                background-color: white;
+                margin: 20px 0px;
+                width: 100%;
+            }
+        }
+
+    }
+}
+
+/* FOOTER */ 
+
+footer {
+    .fermin-logo-footer {
+        display: none;
+    }
+    padding: 0px;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 0px;
+    .redesMain {
+        padding-right: 15px;
+        padding-bottom: 20px;
+        div {
+            padding: 10px;
+        }
+    }
+    iframe {
+        margin-bottom: 30px !important;
+    }
+}
+
+.divFooter {
+    padding-left: 15px;
+}
+
+.fermin-footer {
+    margin: 20px 0px;
+    margin-bottom: 30px;
+}
+
+
+/* INDEX */ 
+
+.bannerHome {
+    h1 {
+        font-size: 50px;
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+    .containerWpp {
+        padding: 25px;
+        h2 {
+            font-size: 25px;
+        }
+        .botonWpp {
+            margin-left: 130px;
+        }
+    }
+    p {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .botonWeb {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+
+    }
+}
+
+.electricas {
+    padding-right: 30px;
+}
+
+.iluminacion {
+    padding-right: 30px;
+}
+
+.pintureria {
+    padding-left: 30px;
+}
+
+.jardineria {
+    padding-right: 30px;
+}
+
+.herramientas {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.containerofertas {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    padding-bottom: 30px;
+    .botonWpp {
+        display: none;
+    }
+    .botonWeb2 {
+        display: block;
+        margin: auto;
+    }
+}
+
+.marcas {
+    h2 {
+        font-size: 35px;
+    }
+}
+
+/* SOBRE NOSOTROS */ 
+
+.ferminLogoHowWe {
+    height: 120px;
+}
+
+.howWeWork {
+    margin: 0px;
+
+    .howWeWork-text {
+        padding-left: 15px;
+    }
+}
+
+.howWeWork-main-text {
+    p {
+        width: 95%;
+    }
+}
+
+.how-we-work-ft p {
+    font-size: 18px;
+    width: 95%;
+}
+
+/* COMO COMPRAR */ 
+
+/* CONTACTO */ 
+
+.contactoh1 {
+    h1 {
+    font-size: 55px;
+    }
+}
+
+.contactRedes {
+    div {
+        padding-left: 15px;
+    }
+}
+
+.redes h3 {
+    display: none;
+}
+
+.contacto-datos {
+    p {
+        display: none;
+    }
+    h3 {
+        font-size: 22px;
+        padding-right: 0px;
+    }
+    .telefonos {
+        display: flex;
+        flex-direction: column !important;
+        text-align: center;
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+.ubicacion {
+    display: none !important;
+}
+
+.contacto-datos span {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contacto-datos {
+    .direccion {
+        h4 {
+            text-align: center;
+            padding-left: 0px;
+        }
+    }
+    text-align: center;
+    h4 {
+        text-align: center;
+        margin: auto;
+    }
+}
+
+.trabaja {
+    h2{
+        padding-left: 10px;
+    }
+}
+
+.busqueda h3 {
+    text-align: center;
+}
+
+.busqueda li {
+    text-align: center;
+    padding-left: 0px;
+}
+
+.busqueda ul li {
+    padding-left: 0px;
+}
+
+.busqueda img {
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.contacto-work {
+    h5 {
+        font-size: 25px;
+    }
+}
+
+}
+
+

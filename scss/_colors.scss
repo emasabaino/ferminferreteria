@@ -1,0 +1,295 @@
+$verdefermin: rgb(38, 148, 67);
+$naranjafermin: rgb(206, 109, 30);
+
+
+/* HEADER */ 
+
+header {
+    background-color: $verdefermin;
+    a {
+        color: white;
+    }
+}
+
+
+
+/* FOOTER */ 
+
+footer {
+    background-color: white;
+    color: $verdefermin;
+    li {
+        font-weight: bold;
+        color: $verdefermin;
+    }
+    a {
+        color: $verdefermin;
+        font-weight: bold;
+        &:hover {
+            color: $naranjafermin;
+            transition: 1s;
+            text-decoration: none;
+        }
+    }
+}
+
+.div-green {
+    background-color: $verdefermin;
+    height: 5px;
+}
+
+
+/* BANNER HOME */ 
+
+.bannerHome {
+    h1 {
+        color: white;
+        -webkit-text-stroke: 2px $naranjafermin;
+    }
+    p {
+        color: $verdefermin;
+        font-weight: bold;        
+    }
+    h2 {
+        color: white;
+        -webkit-text-stroke: gray;
+    }
+}
+
+.bannerHome2 {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.botonWeb {
+    a {
+        color: white;
+    }
+    background-color: $verdefermin;
+    border: solid 2px white;
+    border-radius: 10px;
+    &:hover {
+        border-color: $naranjafermin;
+        transition: 1.5s;
+        }
+}
+
+.containerWpp {
+    background-color: rgba(38, 148, 67, 0.3)
+}
+
+.botonWpp {
+    h2 {
+        color: white;
+        -webkit-text-stroke: 0.2px grey;
+    }
+}
+
+.div-ora {
+    background-color: $naranjafermin;
+    height: 10px;
+}
+
+
+.bannerProdu {
+    background-color: black;
+}
+
+
+.marcas {
+    background-color: white;
+    color: $naranjafermin;
+}
+
+.ofertas-text {
+    color: white;
+}
+
+.botonWeb2 {
+    background-color: white;
+    border: solid 2px $naranjafermin;
+    color: $naranjafermin;
+    a {
+        color: inherit;
+        &:hover {
+            color: rgb(221, 189, 83);
+            transition: 1s;
+        }
+    }
+}
+
+.productos {
+    h2 {
+        color: white;
+        &:hover{
+            color: $naranjafermin;
+            transition: 1.5s;
+        }
+    }
+}
+
+
+/* SOBRE NOSOTROS */
+
+/* SOBRE NOSOTROS */ 
+
+.howWeWork {
+
+    .howWeWork-text {
+        background-color: rgb(235, 235, 235);
+    }
+
+    h2 {
+        color: $naranjafermin;
+    }
+
+    .howWeWork-img {
+        background-color: rgba(56, 136, 77, 0.2);
+    }
+}
+
+.mision-valor {
+    h2 {
+        color: $verdefermin;
+    }
+}
+
+.howWeWork-main-text {
+    background-color: $verdefermin;
+    h2 {
+        color: white;
+    }
+    p {
+        color: white;
+    }
+}
+
+.how-we-work-ft {        
+        h3 {
+            color: $verdefermin;
+        }
+        p {
+            color: gray;
+        }
+
+}
+
+.div-white {
+    background-color: white;
+}
+
+
+/* COMO COMPRAR */ 
+
+.comocomprar-banner {
+    h1 {
+        background-color: $verdefermin;
+        color: white;
+    }
+}
+
+.pasoapaso {
+    color: white;
+}
+
+.paso-1 {
+    background-color: $naranjafermin;
+}
+
+.paso-2 {
+    background-color: rgb(236, 199, 75);
+    h3 {
+        padding-left: 100px;
+    }
+}
+
+.paso-3 {
+    background-color: rgb(230, 226, 17);  
+    
+}
+
+.paso-4 {
+    background-color: rgb(160, 206, 36);
+    h3 {
+        padding-left: 100px;
+    }
+}
+
+.paso-5 {
+    background-color: rgb(29, 160, 29);    
+}
+
+
+
+/*CONTACTO */
+
+
+/* CONTACTO */ 
+
+.contactoh1 {
+    h1 {
+        color: $verdefermin;
+    }
+}
+
+.redes {
+    h3 {
+        color: $naranjafermin;
+    }
+}
+
+.contacto {
+    p {
+        color: gray;
+    }
+}
+
+.contacto-datos {
+    h3 {
+        color: $verdefermin;
+    }
+    span {
+        color: $naranjafermin;
+    }
+    .direccion {
+        h4 {
+            color: $naranjafermin;
+        }
+        ul li {
+            color: gray;
+        }
+    }
+}
+
+.trabaja {
+    h2 {
+        color: $verdefermin;
+    }
+}
+
+.div-green-ver {
+    background-color: $verdefermin;
+}
+
+.busqueda {
+    h3 {
+        color: $naranjafermin;
+    }
+    ul li {
+        color: gray;
+    }
+}
+
+.contacto-work {
+    h3 {
+        color: $naranjafermin;
+    }
+    ul li {
+        color: gray;
+    }
+    h4 {
+        color: $naranjafermin;
+    }
+    h5 {
+        color: $verdefermin;
+    }
+}

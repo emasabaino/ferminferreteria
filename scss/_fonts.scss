@@ -1,0 +1,293 @@
+$roboto: 'Roboto', sans-serif;
+$source: 'Source Sans Pro', sans-serif;
+$franklin: 'Libre Franklin', sans-serif;
+$bebas: 'Bebas Neue', cursive;
+
+@import '_colors.scss';
+
+
+/* HEADER */ 
+
+header {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+}
+
+/* FOOTER */ 
+
+footer {
+    h3 {
+        font-family: $source;
+    }
+}
+
+/* BANNER HOME */ 
+
+.bannerHome {
+    h1 {
+        font-family: 'Bebas Neue', cursive;
+    }
+    p {
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+.marcas {
+    font-family: $source;
+    font-weight: bold;
+}
+
+
+.botonWeb {
+    a {
+        font-family: $source;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+    }
+    text-align: center;
+}
+
+.botonWpp {
+    h2 {
+        text-align: center;
+    }
+}
+
+.ofertas-text {
+    
+    text-align: right;
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: $roboto;
+        text-align: right;
+    }
+    
+    p {
+        font-family: sans-serif;
+        font-size: 18px;
+        text-align: right;
+    }
+}
+
+.botonWeb2 {
+    font-family: $source;
+    font-weight: bold;
+    text-align: center;
+    &:hover {
+        transform: scale(1.04);
+        transition: 1.5s;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+.productos {
+    font-family: $bebas;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+    h2 {
+        color: white;
+        text-decoration: none;
+        &:hover{
+            color: $naranjafermin;
+            transition: 1.5s;
+        }
+    }
+}
+
+.electricas {
+    text-align: right;
+}
+
+.iluminacion {
+    text-align: right;
+}
+
+.pintureria{
+    text-align: left;
+}
+
+.jardineria{
+    text-align: right;
+}
+
+.herramientas{
+    text-align: left;
+}
+
+/* SOBRE NOSOTROS */ 
+
+.howWeWork {
+
+    h2 {
+        font-family: $franklin;
+        font-weight: bold;
+        text-align: center;
+    }
+    p {
+        font-family: $source;
+        font-size: 18px;
+        text-align: center;
+    }
+
+}
+
+.mision-valor {
+    h2 {
+        font-size: 30px;
+        font-family: $franklin;
+        font-weight: bold;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+
+.howWeWork-main-text {
+    h2 {
+        font-weight: bold;
+        font-size: 35px;
+        font-family: $source;
+    }
+    p {
+        font-family: $source;
+        font-size: 20px;
+    }
+}
+
+.how-we-work-ft {
+    text-align: center;
+        
+        h3 {
+            font-family: $franklin;
+            font-size: 30px;
+        }
+        p {
+            font-size: 22px;
+        }
+
+}
+
+/* COMO COMPRAR */ 
+
+.comocomprar-banner {
+    h1 {
+        font-family: $bebas;
+        font-size: 80px;
+    }
+}
+
+.pasoapaso {
+    font-family: $source;
+    span {
+        font-size: 120px;
+        font-weight: bold;
+        font-family: $bebas;
+    }
+    h3 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+
+/* CONTACTO */ 
+
+.contactoh1 {
+    h1 {
+        font-family: $bebas;
+        font-size: 80px;
+        text-align: center;
+}
+}
+
+.redes {
+    h3 {
+        font-family: $source;
+        font-size: 35px;
+        color: $naranjafermin;
+        font-weight: bold;
+        text-align: left;
+    }
+}
+
+.contacto {
+    p {
+        font-family: $roboto;
+        font-size: 18px;
+    }
+}
+
+.contacto-datos {
+    h3 {
+        font-family: $source;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    span {
+        font-family: $source;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .direccion {
+        h4 {
+            font-family: $source;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        ul li {
+            list-style: none;
+            font-family: $source;
+            font-size: 20px;
+        }
+    }
+}
+
+.trabaja {
+    h2 {
+        font-family: $source;
+        text-align: left;
+        font-size: 40px;
+    }
+}
+
+.busqueda {
+    h3 {
+        font-family: $bebas;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    ul li {
+        list-style: none;
+        font-family: $source;
+        font-size: 25px;
+    }
+}
+
+.contacto-work {
+    h3 {
+        font-family: $source;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    ul li {
+        list-style: none;
+        font-family: $source;
+        font-size: 22px;
+    }
+    h4 {
+        font-family: $franklin;
+        font-size: 30px;
+    }
+    h5 {
+        font-family: $source;
+        font-weight: bold;
+        font-size: 30px;
+    }
+}

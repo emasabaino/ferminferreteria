@@ -1,0 +1,96 @@
+@import '_colors.scss';
+
+/* HEADER */ 
+
+.navBar {
+    ul {
+        li {
+            list-style: none;
+        }
+    }
+    a {
+        text-decoration: none;
+        &:hover {
+            color: rgb(255, 209, 5);
+            transition: 1s;
+        }
+    }
+}
+
+/* FOOTER */ 
+
+footer {
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+/* BANNER HOME */ 
+
+.bannerHome {
+    background-image: url(../images/bg-wood.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ofertas {
+    background-image: url(../images/ofertas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.productos {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.electricas {
+    background-image: url(../images/ELECTRICAS.png);
+}
+
+.iluminacion {
+    background-image: url(../images/ILUMINACION.jpg);
+}
+
+.pintureria{
+    background-image: url(../images/PINTURA.png);
+}
+
+.jardineria{
+    background-image: url(../images/jardineria.jpg);
+}
+
+.herramientas{
+    background-image: url(../images/accesorios.png);
+}
+
+.marcas img {
+    opacity: 0.7;
+}
+
+
+
+/* SOBRE NOSOTROS */
+
+.ferminLogoHowWe {
+    background-image: url(../images/bg-wood.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* COMO COMPRAR */ 
+
+
+
+
+/*CONTACTO */
+
