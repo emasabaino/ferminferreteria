@@ -42,7 +42,8 @@ header {
 /*FOOTER*/ 
 
 footer {
-    padding: 30px;
+    padding-top: 30px;
+    padding-left: 15px;
     padding-bottom: 15px;
     justify-content: space-between;
 }
@@ -180,6 +181,7 @@ footer {
 
 .howWeWork {
     margin: 0px 80px;
+    overflow-x: hidden;
 
     .howWeWork-text {
         padding-left: 50px;
@@ -390,4 +392,9 @@ footer {
 
 .carrousel-marcas {
 
+}
+
+.flex-marcas {
+    align-items: center;
+    justify-content: center;
 }
