@@ -176,8 +176,16 @@ footer {
 }
 
 .marcas {
+    padding-right: 0px;
+    margin-right: 0px;
+    width: 100%;
     h2 {
         font-size: 35px;
+    }
+    img {
+        display: inline-block;
+        height: auto;
+        width: 100px;
     }
 }
 

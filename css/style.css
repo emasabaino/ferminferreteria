@@ -234,9 +234,6 @@ footer {
 .botonWpp img {
   height: 70px; }
 
-.marcas img {
-  height: 200px; }
-
 .marcas h2 {
   font-size: 50px; }
 
@@ -2594,8 +2591,16 @@ footer h3 {
     .containerofertas .botonWeb2 {
       display: block;
       margin: auto; }
-  .marcas h2 {
-    font-size: 35px; }
+  .marcas {
+    padding-right: 0px;
+    margin-right: 0px;
+    width: 100%; }
+    .marcas h2 {
+      font-size: 35px; }
+    .marcas img {
+      display: inline-block;
+      height: auto;
+      width: 100px; }
   /* SOBRE NOSOTROS */
   .ferminLogoHowWe {
     height: 120px; }
