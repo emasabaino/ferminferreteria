@@ -90,6 +90,8 @@ footer {
 /* SOBRE NOSOTROS */
 .howWeWork .howWeWork-text {
   background-color: #ebebeb; }
+  .howWeWork .howWeWork-text p {
+    color: #777575; }
 
 .howWeWork h2 {
   color: #ce6d1e; }
@@ -228,11 +230,11 @@ footer {
 .botonWeb a {
   font-size: 25px; }
 
-.botonWpp h2 {
-  font-size: 40px; }
+.containerWpp h2 {
+  font-size: 50px; }
 
 .botonWpp img {
-  height: 70px; }
+  height: 100px; }
 
 .marcas h2 {
   font-size: 50px; }
@@ -241,7 +243,7 @@ footer {
   font-size: 40px; }
 
 .ofertas-text p {
-  font-size: 18px; }
+  font-size: 30px; }
 
 .botonWeb2 {
   max-width: 250px; }
@@ -268,6 +270,9 @@ footer {
 .mision-valor p {
   font-size: 18px; }
 
+.medios-pago {
+  height: 200px; }
+
 .howWeWork-main-text h2 {
   font-size: 35px; }
 
@@ -281,6 +286,9 @@ footer {
 .how-we-work-ft p {
   font-size: 22px;
   width: 60%; }
+
+.how-we-work-ft ul li {
+  font-size: 16px; }
 
 .div-white {
   height: 5px; }
@@ -451,6 +459,8 @@ footer {
 /* SOBRE NOSOTROS */
 .howWeWork .howWeWork-text {
   background-color: #ebebeb; }
+  .howWeWork .howWeWork-text p {
+    color: #777575; }
 
 .howWeWork h2 {
   color: #ce6d1e; }
@@ -709,6 +719,8 @@ footer {
 /* SOBRE NOSOTROS */
 .howWeWork .howWeWork-text {
   background-color: #ebebeb; }
+  .howWeWork .howWeWork-text p {
+    color: #777575; }
 
 .howWeWork h2 {
   color: #ce6d1e; }
@@ -901,6 +913,8 @@ footer {
 /* SOBRE NOSOTROS */
 .howWeWork .howWeWork-text {
   background-color: #ebebeb; }
+  .howWeWork .howWeWork-text p {
+    color: #777575; }
 
 .howWeWork h2 {
   color: #ce6d1e; }
@@ -1037,7 +1051,7 @@ footer h3 {
     text-align: center; }
 
 .botonWpp h2 {
-  text-align: center; }
+  text-align: right; }
 
 .ofertas-text {
   text-align: right; }
@@ -1048,7 +1062,6 @@ footer h3 {
     text-align: right; }
   .ofertas-text p {
     font-family: sans-serif;
-    font-size: 18px;
     text-align: right; }
 
 .botonWeb2 {
@@ -1096,8 +1109,14 @@ footer h3 {
 
 .howWeWork p {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 18px;
+  font-size: 26px;
   text-align: center; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
 
 .mision-valor h2 {
   font-size: 30px;
@@ -1451,7 +1470,8 @@ footer {
     padding-left: 20px;
     padding-top: 20px; }
   .contacto-datos .direccion ul li {
-    padding-left: 20px; }
+    padding-left: 20px;
+    padding-bottom: 15px; }
 
 .trabaja h2 {
   padding-top: 30px;
@@ -1583,6 +1603,8 @@ footer {
 /* SOBRE NOSOTROS */
 .howWeWork .howWeWork-text {
   background-color: #ebebeb; }
+  .howWeWork .howWeWork-text p {
+    color: #777575; }
 
 .howWeWork h2 {
   color: #ce6d1e; }
@@ -1719,7 +1741,7 @@ footer h3 {
     text-align: center; }
 
 .botonWpp h2 {
-  text-align: center; }
+  text-align: right; }
 
 .ofertas-text {
   text-align: right; }
@@ -1730,7 +1752,6 @@ footer h3 {
     text-align: right; }
   .ofertas-text p {
     font-family: sans-serif;
-    font-size: 18px;
     text-align: right; }
 
 .botonWeb2 {
@@ -1778,8 +1799,14 @@ footer h3 {
 
 .howWeWork p {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 18px;
+  font-size: 26px;
   text-align: center; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
 
 .mision-valor h2 {
   font-size: 30px;
@@ -1985,6 +2012,8 @@ footer {
 /* SOBRE NOSOTROS */
 .howWeWork .howWeWork-text {
   background-color: #ebebeb; }
+  .howWeWork .howWeWork-text p {
+    color: #777575; }
 
 .howWeWork h2 {
   color: #ce6d1e; }
@@ -2177,6 +2206,8 @@ footer {
 /* SOBRE NOSOTROS */
 .howWeWork .howWeWork-text {
   background-color: #ebebeb; }
+  .howWeWork .howWeWork-text p {
+    color: #777575; }
 
 .howWeWork h2 {
   color: #ce6d1e; }
@@ -2313,7 +2344,7 @@ footer h3 {
     text-align: center; }
 
 .botonWpp h2 {
-  text-align: center; }
+  text-align: right; }
 
 .ofertas-text {
   text-align: right; }
@@ -2324,7 +2355,6 @@ footer h3 {
     text-align: right; }
   .ofertas-text p {
     font-family: sans-serif;
-    font-size: 18px;
     text-align: right; }
 
 .botonWeb2 {
@@ -2372,8 +2402,14 @@ footer h3 {
 
 .howWeWork p {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 18px;
+  font-size: 26px;
   text-align: center; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
 
 .mision-valor h2 {
   font-size: 30px;
@@ -2613,6 +2649,8 @@ footer h3 {
   .how-we-work-ft p {
     font-size: 18px;
     width: 95%; }
+  .medios-pago {
+    height: 100px; }
   /* COMO COMPRAR */
   .comocomprar-banner h1 {
     font-size: 40px;
